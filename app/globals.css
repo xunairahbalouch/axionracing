@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Your brand colors. Tailwind makes a class from each one */
+@theme {
+  --color-orange: #FF4A12;
+  --color-black: #0A0A0A;
+  --color-white: #FFFFFF;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* The font file, loaded separately. This must sit outside @theme */
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("/fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
